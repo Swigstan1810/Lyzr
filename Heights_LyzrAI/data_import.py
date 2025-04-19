@@ -1,6 +1,6 @@
 
 import sqlite3
-import pandas as pd
+import pandas as pd # type: ignore
 import argparse
 import os
 from datetime import datetime
@@ -157,7 +157,7 @@ def import_sample_data():
     
     # Generate 60 days of data for each symbol
     import random
-    import numpy as np
+    import numpy as np # type: ignore
     from datetime import datetime, timedelta
     
     end_date = datetime.now()

@@ -1,11 +1,11 @@
 import sqlite3
-import pandas as pd
-import numpy as np
+import pandas as pd # type: ignore
+import numpy as np # type: ignore
 from datetime import datetime, timedelta
 import os
 import glob
-import joblib
-from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+import joblib # type: ignore
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score # type: ignore
 
 def update_prediction_accuracy():
     """Update prediction accuracy by comparing with actual values"""
