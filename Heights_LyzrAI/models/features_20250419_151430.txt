@@ -1,0 +1,1 @@
+open,high,low,close,volume,ma5,ma20,price_momentum,volatility
